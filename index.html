@@ -1,21 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Call index.php</title>
+    <title>User Authentication Lab 03</title>
 </head>
 <body>
-    <h1>Call index.php</h1>
-    <form action="index.php" method="post">
-        <!-- You can add any additional form fields you need here -->
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <br>
-        <input type="submit" value="Submit">
+    <h1>User Authentication Lab 0</h1>
+    
+    <form action="index.php" method="GET">
+        <button type="submit">Submit GET Request</button>
+    </form>
+
+    <form action="index.php" method="POST">
+        <button type="submit">Submit POST Request</button>
     </form>
 </body>
 </html>
